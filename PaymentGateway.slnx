@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/PaymentGateway.Apis/PaymentGateway.Apis.csproj" />
+    <Project Path="src/PaymentGateway.Models/PaymentGateway.Models.csproj" />
+    <Project Path="src/PaymentGateway.Repository/PaymentGateway.Repository.csproj" />
+    <Project Path="src/PaymentGateway.Services/PaymentGateway.Services.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/PaymentGateway.Apis.Tests/PaymentGateway.Apis.Tests.csproj" />
+    <Project Path="tests/PaymentGateway.Repository.Tests/PaymentGateway.Repository.Tests.csproj" />
+    <Project Path="tests/PaymentGateway.Services.Tests/PaymentGateway.Services.Tests.csproj" />
+  </Folder>
+</Solution>

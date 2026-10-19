@@ -1,0 +1,10 @@
+services:
+  bank_simulator:
+    image: bbyars/mountebank:2.9.1
+    container_name: bank_simulator
+    ports:
+      - "2525:2525" # Mountebank admin API / UI
+      - "8080:8080" # the fake bank
+    command: --configfile /imposters/bank.json
+    volumes:
+      - ./bank_simulator/imposters:/imposters:ro
